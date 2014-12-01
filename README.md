@@ -1,4 +1,4 @@
-## Description
+## Description
   A collection of classes that provide different ways to ping computers.
 
 ## Prerequisites
@@ -19,18 +19,22 @@
 
 ## Notes
   Please read the documentation under the 'doc' directory. Especially pay
-  attention to the documentation pertaining to ECONNREFUSED and TCP pings.
+  attention to the documentation pertaining to `ECONNREFUSED` and TCP pings.
 
   Also note the documentation regarding down hosts.
 ## How to require net-ping
   You can do either this:
 
-  require 'net/ping'
+```
+require 'net/ping'
+```
 
-  In which case you will get Net::Ping and all of its subclasses. Or,
+  In which case you will get `Net::Ping` and all of its subclasses. Or,
   you can load individual subclasses like this:
 
-  require 'net/ping/tcp'
+```
+require 'net/ping/tcp'
+```
 
   The former has the advantage of being easier to remember and all inclusive,
   not to mention backwards compatible. The latter has the advantage of
