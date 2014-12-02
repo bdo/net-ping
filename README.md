@@ -1,4 +1,4 @@
-## Description
+## Description
   A collection of classes that provide different ways to ping computers.
 
 ## Prerequisites
